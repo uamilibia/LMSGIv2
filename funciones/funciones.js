@@ -38,5 +38,4 @@ function limpiarFormulario() {
     document.getElementById('email').value = '';
     document.getElementById('telefono').value = '';
     document.getElementById('interes').value = '';
-    alert('Formulario limpiado.');
 }
