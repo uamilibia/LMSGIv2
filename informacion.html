@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Información Práctica - BIRTLH ExpoViajes 2025</title>
+    <meta name="description" content="Información práctica para visitantes: ubicación, horarios, transporte y servicios de BIRTLH ExpoViajes 2025." />
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+	<script src="funciones/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BIRTLH ExpoViajes 2025</h1>
+        <p><strong>18 de octubre de 2025 | 09:00 - 20:00 | BEC Bilbao Exhibition Centre</strong></p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="programa.html">Programa</a></li>
+            <li><a href="expositores.html">Expositores</a></li>
+            <li><a href="informacion.html" class="active">Información Práctica</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal con información práctica -->
+    <main>
+        <!-- Sección con ubicación y datos básicos -->
+        <section>
+            <h2>Ubicación y Datos Básicos</h2>
+            <div class="imagen-centrada">
+                <img src="imagenes/bilbao_bec_1.jpeg" alt="Exterior del BEC Bilbao Exhibition Centre" />
+            </div>
+            <p>
+                <strong>BIRTLH ExpoViajes 2025</strong> se celebra en el <strong>BEC Bilbao Exhibition Centre</strong>, 
+                uno de los recintos feriales más modernos y mejor equipados de Europa, ubicado en Barakaldo, 
+                en el área metropolitana de Bilbao.
+            </p>
+            
+            <table>
+                <tr>
+                    <th>Información</th>
+                    <th>Detalles</th>
+                </tr>
+                <tr>
+                    <td>Nombre completo</td>
+                    <td>BEC Bilbao Exhibition Centre</td>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td>Ronda de Azkue, 1, 48902 Barakaldo, Bizkaia</td>
+                </tr>
+                <tr>
+                    <td>Fecha del evento</td>
+                    <td>Sábado, 18 de octubre de 2025</td>
+                </tr>
+                <tr>
+                    <td>Horario</td>
+                    <td>09:00 - 20:00 horas (11 horas de duración)</td>
+                </tr>
+                <tr>
+                    <td>Superficie</td>
+                    <td>15.000 m² de superficie expositiva</td>
+                </tr>
+                <tr>
+                    <td>Entrada</td>
+                    <td>Gratuita con registro previo</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Sección calculadora de entradas -->
+        <section>
+            <h2>Calculadora de Entradas</h2>
+            <p>Calcula el coste total de tus entradas para BIRTLH ExpoViajes 2025.</p>
+			<p>El precio unitario es de 16,50€.</p>
+            
+            <div>
+                <label for="numEntradas">Número de entradas:</label>
+				<input type="number" id="numEntradas" min="1" max="50" value="1"/>
+                <button onclick="calcularPrecio()">Calcular Precio</button>
+                <div id="resultado"></div>
+            </div>
+        </section>
+
+        <!-- Sección con información de transporte -->
+        <section>
+            <h2>Cómo Llegar - Transporte</h2>
+            <h3>Opciones de transporte público:</h3>
+            <ul>
+                <li><strong>Metro:</strong> Línea 2 (roja) - Estación "Ansio" (5 minutos a pie)</li>
+                <li><strong>Autobús:</strong> Líneas A3247, A3248 y A3249 desde Bilbao centro</li>
+                <li><strong>Tren:</strong> Cercanías RENFE - Estación "Barakaldo" (10 minutos en autobús)</li>
+                <li><strong>Tranvía:</strong> Euskotren - Conexión con metro en "San Inazio"</li>
+            </ul>
+
+            <h3>Transporte privado:</h3>
+            <ol>
+                <li><strong>Desde Bilbao centro:</strong> A-8 dirección Santander, salida 12 "Barakaldo"</li>
+                <li><strong>Desde San Sebastián:</strong> A-8 dirección Bilbao, salida 12 "Barakaldo"</li>
+                <li><strong>Desde Vitoria:</strong> A-68 hasta A-8, salida 12 "Barakaldo"</li>
+                <li><strong>Aparcamiento:</strong> 3.000 plazas gratuitas en el recinto</li>
+            </ol>
+
+            <p>
+                Para planificar tu viaje en transporte público, consulta 
+                <a href="https://www.metrobilbao.eus/" target="_blank">Metro Bilbao</a> y 
+                <a href="https://www.bizkaia.eus/es/web/bizkaibus" target="_blank">Bizkaibus</a>.
+            </p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 BIRTLH ExpoViajes. Todos los derechos reservados.</p>
+        <p>Organizado por BIRTLH Events | Email: info@birtlhexpoviajes.com | Tel: +34 944 123 456</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>

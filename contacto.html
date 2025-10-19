@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Contacto y Registro - BIRTLH ExpoViajes 2025</title>
+    <meta name="description" content="Formulario de registro y información de contacto para BIRTLH ExpoViajes 2025." />
+    <link rel="stylesheet" type="text/css" href="estilos/estilos.css" />
+	<script src="funciones/funciones.js"></script>
+</head>
+<body>
+    <header>
+        <h1>BIRTLH ExpoViajes 2025</h1>
+        <p><strong>18 de octubre de 2025 | 09:00 - 20:00 | BEC Bilbao Exhibition Centre</strong></p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="programa.html">Programa</a></li>
+            <li><a href="expositores.html">Expositores</a></li>
+            <li><a href="informacion.html">Información Práctica</a></li>
+            <li><a href="contacto.html" class="active">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Contenido principal con formulario y contacto -->
+    <main>
+        <section>
+            <h2>Registro de Visitantes</h2>
+            <p>
+                Regístrate gratuitamente para asistir a <strong>BIRTLH ExpoViajes 2025</strong>. 
+                El registro te permitirá acceder a ofertas exclusivas y recibir información 
+                actualizada sobre el evento.
+            </p>
+            
+            <!-- Formulario de registro con 4 campos requeridos -->
+            <form action="mailto:registro@birtlhexpoviajes.com" method="post" enctype="text/plain">
+                <h3>Formulario de Registro</h3>
+                
+                <div class="form-group">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required="required" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required="required" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="telefono">Teléfono de contacto *</label>
+                    <input type="tel" id="telefono" name="telefono" required="required" />
+                </div>
+                
+                <div class="form-group">
+                    <label for="interes">Tipo de interés *</label>
+                    <select id="interes" name="interes" required="required">
+                        <option value="">Selecciona una opción</option>
+                        <option value="turista">Turista individual</option>
+                        <option value="familia">Viajes en familia</option>
+                        <option value="profesional">Profesional del sector</option>
+                        <option value="empresa">Empresa/Agencia</option>
+                        <option value="estudiante">Estudiante</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                
+                <button type="submit">Enviar Registro</button>
+				<!-- botón limpiar formulario -->
+				<button type="button" onclick="limpiarFormulario()">Limpiar Formulario</button>
+            </form>
+            
+            <div class="destacado">
+                <p><strong>Nota:</strong> Al enviar este formulario se abrirá tu cliente de correo predeterminado. 
+                Los campos marcados con * son obligatorios. Recibirás confirmación en un plazo de 24 horas.</p>
+            </div>
+        </section>
+
+        <!-- Sección con información de contacto -->
+        <section>
+            <h2>Información de Contacto</h2>
+            <h3>Organización del evento:</h3>
+            <table>
+                <tr>
+                    <th>Concepto</th>
+                    <th>Información</th>
+                </tr>
+                <tr>
+                    <td>Dirección</td>
+                    <td>Calle Gran Vía, 45, 3º B<br />48011 Bilbao, Bizkaia</td>
+                </tr>
+                <tr>
+                    <td>Teléfono principal</td>
+                    <td>+34 944 123 456</td>
+                </tr>
+                <tr>
+                    <td>Email general</td>
+                    <td>info@birtlhexpoviajes.com</td>
+                </tr>
+                <tr>
+                    <td>Horario de atención</td>
+                    <td>Lunes a viernes: 09:00 - 18:00</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2025 BIRTLH ExpoViajes. Todos los derechos reservados.</p>
+        <p>Organizado por BIRTLH Events | Email: info@birtlhexpoviajes.com | Tel: +34 944 123 456</p>
+        <div class="redes-sociales">
+            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.twitter.com/" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+</body>
+</html>
